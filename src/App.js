@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+//todo:functional stateless component
 function App() {
   return (
     <div className="App">
