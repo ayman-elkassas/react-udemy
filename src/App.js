@@ -12,6 +12,14 @@ import StyleSheet from "./components/8-Styling/styleSheet";
 import FormHandling from "./components/9-FormHandling/FormHandling";
 import CompLifeCycle from "./components/10-ComponentLifeCycle/com-lifecycle";
 import ParentComponent from "./components/12-PureComponent/parentComponent";
+import Refs from "./components/14-Refs/refs";
+import FocusInput from "./components/15-RefsClass/FocusInput";
+import FRParentInput from "./components/16-RefsFunction/FRParentRef";
+import Portal from "./components/17-Portal/Portal";
+import Hero from "./components/18-ErrorHandling/hero";
+import ErrorBoundary from "./components/18-ErrorHandling/errorHandling";
+import HOC from "./components/19-HigherOrderComponent/HOC";
+import HOCHover from "./components/19-HigherOrderComponent/HOCHover";
 
 //todo:functional stateless component
 function App() {
@@ -32,7 +40,16 @@ function App() {
       {/* <StyleSheet primary="primary"/> */}
       {/* <FormHandling/> */}
       {/* <CompLifeCycle/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      {/* <Refs name="test"/> */}
+      {/* <FocusInput/> */}
+      {/* <FRParentInput/> */}
+      {/* <Portal/> */}
+      {/* <ErrorBoundary>
+        <Hero heroName="Joker"/>
+      </ErrorBoundary> */}
+      <HOC/>
+      <HOCHover/>
     </div>
   );
 }
