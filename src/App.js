@@ -20,6 +20,11 @@ import Hero from "./components/18-ErrorHandling/hero";
 import ErrorBoundary from "./components/18-ErrorHandling/errorHandling";
 import HOC from "./components/19-HigherOrderComponent/HOC";
 import HOCHover from "./components/19-HigherOrderComponent/HOCHover";
+import User from "./components/20-RenderProps/User";
+import { UserProvider } from "./components/21-Context/userContext";
+import ComponentC from "./components/21-Context/componentC";
+import PostForm from "./components/22-Axios/postForm";
+import PostList from "./components/22-Axios/postList";
 
 //todo:functional stateless component
 function App() {
@@ -48,8 +53,14 @@ function App() {
       {/* <ErrorBoundary>
         <Hero heroName="Joker"/>
       </ErrorBoundary> */}
-      <HOC/>
-      <HOCHover/>
+      {/* <HOC/>
+      <HOCHover/> */}
+      {/* <User render={(isLoggedIn)=>isLoggedIn?'Ahmed':'Guest'}/> */}
+      {/* <UserProvider value="ahmed">
+        <ComponentC/>
+      </UserProvider> */}
+      <PostForm/>
+      <PostList/>
     </div>
   );
 }
