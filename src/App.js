@@ -7,11 +7,18 @@ import Click from "./components/5-EventHandling/click";
 import Bind from './components/5-EventHandling/bind';
 import MethodsAsProps from "./components/3-Props/methodsAsProps";
 import ConRender from './components/6-ConitionalRendering/conRender';
+import ListRendering from "./components/7-ListRendering/listRendering";
+import StyleSheet from "./components/8-Styling/styleSheet";
+import FormHandling from "./components/9-FormHandling/FormHandling";
+import CompLifeCycle from "./components/10-ComponentLifeCycle/com-lifecycle";
+import ParentComponent from "./components/12-PureComponent/parentComponent";
 
 //todo:functional stateless component
 function App() {
+
   return (
     <div className="App">
+      {/* name of Component should be capitalize */}
       {/* <Greet/>
       <Welcome/>
       <Hello/>
@@ -20,7 +27,12 @@ function App() {
       {/* <Click/> */}
       {/* <Bind/> */}
       {/* <MethodsAsProps/> */}
-      <ConRender/>
+      {/* <ConRender/> */}
+      {/* <ListRendering/> */}
+      {/* <StyleSheet primary="primary"/> */}
+      {/* <FormHandling/> */}
+      {/* <CompLifeCycle/> */}
+      <ParentComponent/>
     </div>
   );
 }
